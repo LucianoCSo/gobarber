@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components';
+
 import { shade } from 'polished';
 import imgFundo from '../../assets/sign-in-background.png';
 
@@ -7,6 +8,7 @@ export const Container = styled.div`
   display: flex;
   align-items: stretch;
 `;
+
 const appearFromLeft = keyframes`
   from {
     opacity:0;
@@ -38,6 +40,7 @@ export const AnimationContainer = styled.div`
   justify-content: center;
   align-items: center;
   animation: ${appearFromLeft} 1s;
+
   form {
     margin: 50px 0;
     width: 340px;

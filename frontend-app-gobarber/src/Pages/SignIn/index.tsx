@@ -3,11 +3,9 @@ import { FiLogIn, FiMail, FiLock } from 'react-icons/fi';
 import { Form } from '@unform/web';
 import * as Yup from 'yup';
 import { Link, useHistory } from 'react-router-dom';
-import { FormHandles } from '@unform/core';
-import logoImg from '../../assets/logo.svg';
-import getValidationErrors from '../../utils/getValidationErrors';
 
 import { Container, Content, Background, AnimationContainer } from './styles';
+
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 

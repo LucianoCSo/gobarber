@@ -3,6 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import GlobalStyles from './Styles/global';
 import Routes from './routes';
 
+
 import AppProvider from './hooks';
 
 const App: React.FC = () => (

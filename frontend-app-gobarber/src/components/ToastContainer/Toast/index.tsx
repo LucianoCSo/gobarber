@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
-import { ToastMessage, useToast } from '../../../hooks/Toasts';
 import {
   FiAlertCircle,
   FiCheckCircle,
   FiInfo,
   FiXCircle,
 } from 'react-icons/fi';
+import { ToastMessage, useToast } from '../../../hooks/Toasts';
 
 import { Container } from './styles';
 
@@ -18,6 +18,7 @@ const icons = {
   error: <FiAlertCircle size={24} />,
   success: <FiCheckCircle size={24} />,
 };
+
 const Toast: React.FC<ToastProps> = ({ message, style }) => {
   const { removeToast } = useToast();
 
